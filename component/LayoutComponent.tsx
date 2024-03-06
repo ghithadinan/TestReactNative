@@ -86,7 +86,7 @@ const LayoutComponent = () => {
           <View style={styles.controlSpace}>
             <View style={styles.buttonView}>
               <Button
-                title="Change Flex Direction"
+                title="Change FlexComponent Direction"
                 onPress={() => {
                   changeSetting(flexDirection, flexDirections, setFlexDirection);
                 }}
@@ -124,7 +124,7 @@ const LayoutComponent = () => {
             </View>
             <View style={styles.buttonView}>
               <Button
-                title="Change Flex Wrap"
+                title="Change FlexComponent Wrap"
                 onPress={() => changeSetting(wrap, wraps, setWrap)}
               />
               <Text style={styles.text}>{wraps[wrap]}</Text>
